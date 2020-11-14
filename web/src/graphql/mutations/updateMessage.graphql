@@ -1,0 +1,5 @@
+mutation UpdateMessage($id: Int! , $text : String! ){
+    updateMessage(id : $id , text : $text){
+        ...MessageSnippet
+    }
+}

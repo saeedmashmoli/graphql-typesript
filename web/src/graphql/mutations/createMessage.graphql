@@ -1,0 +1,5 @@
+mutation CreateMessage($text: String!) {
+  createMessage(text: $text) {
+    ...MessageSnippet
+  }
+}

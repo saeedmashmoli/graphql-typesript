@@ -1,0 +1,12 @@
+fragment MessageSnippet on Message {
+  id
+  text
+  createdAt
+  updatedAt
+  sender {
+    id
+    name
+    mobile
+  }
+  
+}

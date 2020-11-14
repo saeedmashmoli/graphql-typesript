@@ -1,0 +1,5 @@
+mutation register($name : String!, $mobile : String! , $email : String! , $password : String!){
+    register(password : $password , options : { name: $name , mobile: $mobile , email:$email} ){
+        ...RegularUserResponse
+    }
+}
